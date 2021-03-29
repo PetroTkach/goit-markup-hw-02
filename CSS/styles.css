@@ -1,0 +1,62 @@
+/* Загальна сторінка */
+
+ul {
+  list-style: none;
+}
+/* Шапка */
+.header {
+  background-color: #ffffff;
+}
+.logo {
+  color: #000000; /* ---- Logo змінити колір першої половини!!!!*/
+}
+.site-nav-link {
+  color: #212121;
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: #2196f3;
+}
+.contact-nav-mt {
+  color: #757575;
+}
+
+.contact-nav-mt:hover,
+.contact-nav-mt:focus {
+  color: #2196f3;
+}
+/* main */
+.section {
+  color: #757575;
+}
+/* Герой */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.hero-button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* Особливості */
+.section-title {
+  color: #212121;
+}
+/* Команда */
+.section-team {
+  background-color: #f5f4fa;
+}
+/* Футер */
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+/* Портфоліо */
+.portfolio-button {
+  background-color: #f5f4fa;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #2196f3;
+}

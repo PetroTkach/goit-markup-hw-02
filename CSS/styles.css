@@ -8,13 +8,19 @@ ul {
   background-color: #ffffff;
 }
 .logo {
-  color: #000000; /* ---- Logo змінити колір першої половини!!!!*/
+  color: #000000;
+}
+.logo-web {
+  color: #2196f3;
 }
 .site-nav-link {
   color: #212121;
 }
 .site-nav-link:hover,
 .site-nav-link:focus {
+  color: #2196f3;
+}
+.site-nav-сurrent {
   color: #2196f3;
 }
 .contact-nav-mt {
@@ -51,12 +57,15 @@ ul {
   background-color: #2f303a;
   color: #ffffff;
 }
-
+.logo-footer {
+  color: #ffffff;
+}
 /* Портфоліо */
 .portfolio-button {
   background-color: #f5f4fa;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
-  color: #2196f3;
+  background-color: #2196f3;
+  color: #ffffff;
 }

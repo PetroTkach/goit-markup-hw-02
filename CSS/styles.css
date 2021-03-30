@@ -1,8 +1,8 @@
 /* Загальна сторінка */
-
 ul {
   list-style: none;
 }
+
 /* Шапка */
 .header {
   background-color: #ffffff;
@@ -59,6 +59,9 @@ ul {
 }
 .logo-footer {
   color: #ffffff;
+}
+.contact-nav-mt-f {
+  color: rgba(255, 255, 255, 0.6);
 }
 /* Портфоліо */
 .portfolio-button {

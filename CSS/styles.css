@@ -5,7 +5,6 @@ ul {
 body {
   font-family: Roboto, sans-serif;
 }
-
 /* Шапка */
 .header {
   background-color: #ffffff;
@@ -18,12 +17,14 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .logo-web {
   color: #2196f3;
 }
 .site-nav-link {
   color: #212121;
+  text-decoration: none;
 }
 .site-nav-link:hover,
 .site-nav-link:focus {
@@ -31,9 +32,11 @@ body {
 }
 .site-nav-сurrent {
   color: #2196f3;
+  text-decoration: none;
 }
 .contact-nav-mt {
   color: #757575;
+  text-decoration: none;
 }
 
 .contact-nav-mt:hover,
@@ -131,6 +134,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .footer-contact-address {
   color: #ffffff;
@@ -139,6 +143,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .footer-contact-nav-mt {
   color: rgba(255, 255, 255, 0.6);
@@ -147,6 +152,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 /* Портфоліо */
 .portfolio {
@@ -156,6 +162,9 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+.portfolio-link {
+  text-decoration: none;
 }
 .portfolio-title {
   font-style: normal;

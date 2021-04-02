@@ -1,3 +1,10 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #000000;
+  --accent-color: #2196f3;
+  --add-color: #ffffff;
+}
+
 /* Загальна сторінка */
 ul {
   list-style: none;
@@ -10,7 +17,7 @@ body {
   background-color: #ffffff;
 }
 .logo {
-  color: #000000;
+  color: var(--title-text-color);
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -20,28 +27,28 @@ body {
   text-decoration: none;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav-link {
-  color: #212121;
+  color: var(--title-text-color);
   text-decoration: none;
 }
 .site-nav-link:hover,
 .site-nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav-сurrent {
-  color: #2196f3;
+  color: var(--accent-color);
   text-decoration: none;
 }
 .contact-nav-mt {
-  color: #757575;
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 
 .contact-nav-mt:hover,
 .contact-nav-mt:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav,
 .contact-nav {
@@ -53,12 +60,12 @@ body {
 }
 /* main */
 .section {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 /* Герой */
 .hero {
   background-color: #2f303a;
-  color: #ffffff;
+  color: var(--add-color);
 
   font-style: normal;
   font-weight: 900;
@@ -70,7 +77,7 @@ body {
 }
 .hero-button {
   background-color: #2196f3;
-  color: #ffffff;
+  color: var(--add-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -79,6 +86,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 /* Особливості */
 .section-feature {
@@ -89,7 +97,7 @@ body {
   letter-spacing: 0.03em;
 }
 .section-feature-title {
-  color: #212121;
+  color: var(--title-text-color);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -99,7 +107,7 @@ body {
 }
 /* Заняття */
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -118,17 +126,17 @@ body {
   letter-spacing: 0.03em;
 }
 .section-team-title {
-  color: #212121;
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
 }
 /* Футер */
 .footer {
   background-color: #2f303a;
-  color: #ffffff;
+  color: var(--add-color);
 }
 .logo-footer {
-  color: #ffffff;
+  color: var(--add-color);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -137,7 +145,7 @@ body {
   text-decoration: none;
 }
 .footer-contact-address {
-  color: #ffffff;
+  color: var(--add-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -172,10 +180,10 @@ body {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .portfolio-text {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .portfolio-button {
   background-color: #f5f4fa;
@@ -185,9 +193,10 @@ body {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: #2196f3;
-  color: #ffffff;
+  color: var(--add-color);
 }

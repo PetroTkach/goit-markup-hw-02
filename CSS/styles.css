@@ -3,6 +3,9 @@
   --title-text-color: #000000;
   --accent-color: #2196f3;
   --add-color: #ffffff;
+  --bg-color: #2f303a;
+  --team-color: #f5f4fa;
+  --footer-color: rgba(255, 255, 255, 0.6);
 }
 
 /* Загальна сторінка */
@@ -14,7 +17,7 @@ body {
 }
 /* Шапка */
 .header {
-  background-color: #ffffff;
+  background-color: var(--add-color);
 }
 .logo {
   color: var(--title-text-color);
@@ -64,19 +67,22 @@ body {
 }
 /* Герой */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--bg-color);
+
+  text-align: center;
+}
+.hero-title {
   color: var(--add-color);
 
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .hero-button {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: var(--add-color);
   font-family: Roboto;
   font-style: normal;
@@ -117,7 +123,7 @@ body {
 }
 /* Команда */
 .section-team {
-  background-color: #f5f4fa;
+  background-color: var(--team-color);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -132,7 +138,7 @@ body {
 }
 /* Футер */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--bg-color);
   color: var(--add-color);
 }
 .logo-footer {
@@ -154,7 +160,7 @@ body {
   text-decoration: none;
 }
 .footer-contact-nav-mt {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -186,7 +192,7 @@ body {
   color: var(--primary-text-color);
 }
 .portfolio-button {
-  background-color: #f5f4fa;
+  background-color: var(--team-color);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -197,6 +203,6 @@ body {
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: var(--add-color);
 }

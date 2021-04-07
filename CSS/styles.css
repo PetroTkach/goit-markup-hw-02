@@ -142,6 +142,7 @@ body {
   color: var(--add-color);
 }
 .logo-footer {
+  font-family: Raleway;
   color: var(--add-color);
   font-style: normal;
   font-weight: 700;
@@ -150,6 +151,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+
 .footer-contact-address {
   color: var(--add-color);
   font-style: normal;
@@ -192,6 +194,7 @@ body {
   color: var(--primary-text-color);
 }
 .portfolio-button {
+  font-family: inherit;
   background-color: var(--team-color);
   font-style: normal;
   font-weight: 500;
